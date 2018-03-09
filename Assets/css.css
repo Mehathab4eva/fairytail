@@ -1,0 +1,159 @@
+body {
+	background: #CD2904;
+}
+
+
+#welcome {
+	height: 51px;
+	width: 1080px;
+	text-align: left;
+	margin: 50px;
+    color: rgb(84, 16, 12);
+    text-shadow: 4px 3px 15px #e1f6fa;
+	font-weight: bolder;
+}
+
+#logo {
+	   position: fixed;
+    top: 8px;
+    right: 31px;
+    height: 120px;
+    width: 290px;
+}
+/*#button1 {
+	    position: relative;
+    top: 198px;
+    left: -172px;
+    background-color: #e87306;
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 14px 40px;
+    transition-duration: 0.4s;
+    color: white;
+    border-color: #e87306;
+}
+
+#button1:hover {
+
+    background-color: white;
+    color: #CD2904;
+    border-color: #e87306;
+    opacity: 0.6;
+
+    
+
+}*/
+
+#displayDiv {
+	width: 1080px;
+	border: solid black 2px;
+	height: 268px;
+	position: relative;
+	top: 18px;
+	left: 60px;
+	clear: both;
+	background-color: black;
+}
+
+
+#gameDiv1 {
+	float: left;
+	width: 515px;
+	height:265px;
+	border: solid black 2px;
+	position: relative;
+	top: 30px;
+	margin-right: : 50px;
+	margin-left: 20px;
+	color: #e1f6fa;
+}
+
+#gameDiv2 {
+	float: left;
+	width: 515px;
+	height:265px;
+	border: solid black 2px;
+	position: relative;
+	top: 30px;
+	margin-left: 60px;
+	margin-right: 25px;
+	color: #e1f6fa;
+}
+
+
+.profileImages {
+
+	height:230px;
+	width: 230px;
+	float: left;
+	border:solid black 19px;
+	
+}
+
+
+.presentation {
+	background-color: black;
+}
+
+.pHeader {
+	margin: 15px;
+	position: absolute;
+	left: 64px;
+
+	color: white;
+
+}
+
+
+.name {
+	 position: absolute;
+    left: -19px;
+    top: 38px;
+	margin: 33px;
+	color: #CD2904;
+	font-weight: bold;
+}
+
+
+.image {
+	position: absolute;
+    top: 5px;
+    right: 5px;
+	height: 200px;
+	width: 200px;
+/*	background-color: white;
+*/}
+
+
+.stats {
+	position: absolute;
+    top: 95px;
+    right: 255px;
+}
+
+#cAttack, #heroAttack {
+	color: red;
+}
+
+
+#cDefense, #heroDefense {
+	color: yellow;
+}
+
+#cHp, #heroHp {
+	color: green;
+}
+
+.musicControl {
+	height: 60px;
+	width: 60px;
+	padding: 10px;
+	}
+.musicDiv {
+position:fixed;
+	right: 60px;
+	height: 60px;
+	width:200px;
+
+}
+
