@@ -2,62 +2,34 @@
 <html>
 <head>
 	<title>FairyTail</title>
-
-<!-- 	Linked the  css.css to index.html-->	
- <link rel="stylesheet" type="text/css" href="Assets/css.css">
-
-<!--  Linked the  css.css to index.html -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-	
-
+	<link rel="stylesheet" type="text/css" href="./styles/main.css">
 </head>
 <body>
-	<div id="header">
-		<img id="logo" src="Assets/Fairy_Tail_Logo.png">	</div>
-<div><h1 id="welcome">Welcome!</h1></div>
-	
-	<div id="button"></div>
-	<div class="musicDiv"><span><img class="musicControl" id="music" src="Assets/music-icon.png"></span><span><img class="musicControl" id="mute" src="Assets/music.png"></span></div>
+	<header>
+		<img src="./assets/Fairy_Tail_Logo.png" class="logo">
+		<div class="musicControls">
+			<div>music off</div>
+			<div>sounds off</div>
+		</div>
+	</header>
 
-	<div id="displayDiv">
-		<div >
-			<input id="natsu" type="image" class="profileImages" src="Assets/natsuDragneel.png">
-		<!-- 	<br>
-			<h2 class="displayName">Natsu Dragneel</h2> -->
-		</div>
 
-		<div >
-			<input type="image" id="erza" class= "profileImages" src="Assets/erza.jpg">
-		</div>
-		<div >
-			<input type="image"  id="gray" class="profileImages" src="Assets/gray.jpg" >
-		</div> 
-		<div id="laxus">
-			<input  type="image" id="laxus" class="profileImages" src="Assets/laxus.jpg" >
-		</div>
+	<div class="gameDiv">
+			<div class="arena">
+					<div>
+						<h2>Fighter</h2>
+						<div class="player"></div>
+					</div>
+					<div>
+						<h2>Opponent</h2>
+						<div class="opponent"></div></div>
+			</div>
+
+			<div class="selection">
+
+			</div>
 	</div>
-	<div id="gameDiv2" class="presentation">
-		<h2 class="pHeader">Your Fighter</h2>
-		<h2 id="heroHeader" class="name"></h2>
-		<img id="heroImage" class="image">
-		<div id="heroStats" class="stats">
-			<h3 id="heroAttack"></h3>
-			<h3 id="heroDefense"></h3>
-			<h3 id="heroHp"></h3>
-		</div>
-	</div>
-	<div id="gameDiv1" class="presentation">
-		<h2 class="pHeader">Your Challenger</h2>
-		<h2 id="cHeader" class="name"></h2>
-		<div id="cImage" class="image"></div>
-		<div id="cStats" class="stats">
-			<h3 id="cAttack"></h3>
-			<h3 id="cDefense"></h3>
-			<h3 id="cHp"></h3>
-		</div>
-	</div>
-	</div>
-<script src="Assets/game.js"></script>
+
+<script type="text/javascript" src="./scripts/main.js"></script>
 </body>
 </html>

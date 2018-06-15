@@ -1,0 +1,102 @@
+body{
+	background : linear-gradient(to right, rgb(253, 51, 9), rgb(255, 128, 64));
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 10px 50px;
+	background-color: white;
+
+}
+
+.logo{
+	width: 290px;
+}
+
+.musicControls {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 150px;
+}
+
+.gameDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 90vw;
+	min-width: 300px;
+	margin: 10px auto;
+	
+	
+	 
+}
+
+.arena {
+	display: flex;
+	justify-content: center;
+	align-items:  baseline;
+	width: 70vw;
+	min-width: 295px;
+	flex-wrap: wrap;
+	margin: 20px 0px;
+	
+
+	
+}
+
+.player, .opponent {
+	margin: 20px 10px;
+	
+	
+	
+}
+
+.selection{
+	width: 80vw;
+	min-width: 295px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.selectionChars {
+	width: 30vw;
+	min-width: 280px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin:1vw 1vh;
+	box-shadow: 5px 5px 15px gray;
+	text-align: center;
+	border-radius: 2px;
+	background : linear-gradient(to right, rgb(0, 0, 0), rgb(64, 0, 0));
+}
+
+.selectionChars:hover {
+	transform: scale(1.025);
+	transition: 300ms ease-out;
+}
+
+.charDetails{
+	color: #f4f4f4;
+}
+
+
+
+.charImage{
+	height:200px;
+	width: 200px;
+	border:solid #f4f4f4 3px;
+	border-radius: 2px;
+	margin: 2vw 2vh;
+
+}
