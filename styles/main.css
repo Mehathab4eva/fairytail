@@ -79,6 +79,7 @@ header{
 	text-align: center;
 	border-radius: 2px;
 	background : linear-gradient(to right, rgb(0, 0, 0), rgb(64, 0, 0));
+	position: relative;
 }
 
 .selectionChars:hover {
@@ -99,4 +100,48 @@ header{
 	border-radius: 2px;
 	margin: 2vw 2vh;
 
+}
+
+
+.fightButton{
+	outline: none;
+	border: none;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	background-color: gray;
+	color: white;
+	font-size: 16px;
+	font-weight: 300px;
+	padding: 20px 60px;
+	border-radius: 20px;
+	box-shadow: 0px 8px black;
+}
+
+.fightButton:hover{
+	box-shadow: 0px 4px black;
+	top: 2px;
+}
+
+.fightButton:active{
+	box-shadow: 0px 0px black;
+	top: 8px;
+}
+
+.attack {
+	color: red;
+}
+
+.defense {
+	color: yellow;
+}
+
+.charHP {
+	color: green;
+}
+
+.verdict {
+	text-align: center;
+	font-size: 20px;
+	color: white;
 }
