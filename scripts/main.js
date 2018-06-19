@@ -6,7 +6,7 @@ class Character {
 		this.attack 	= attack;
 		this.defense 	= defense;
 		this.charHP		= hp;
-		this.imgSrc		= `./assets/${img}`;
+		this.imgSrc		= `./Assets/${img}`;
 		this.status		= 'active';
 
 		//default values
@@ -173,7 +173,7 @@ attack(char2, char1);
 updateStats(gameStatus.player1, urFighterDiv);
 updateStats(gameStatus.player2, urOpponentDiv);
 
-console.log([char1, char2 ]);
+//console.log([char1, char2 ]);
 }
 
 
@@ -204,7 +204,7 @@ function verdict(char1, char2){
 	var drawDiv2	= addDOM('div', 'Draw');
 
 
-	if(char1.charHp <= 0 && char2.charHp <= 0)
+	if(char1.charHP <= 0 && char2.charHP <= 0)
 	{
 		urFighterDiv.appendChild(drawDiv1);
 		urOpponentDiv.appendChild(drawDiv2);
@@ -214,7 +214,7 @@ function verdict(char1, char2){
 
 
 	}
-	else if(char1.charHp <=0 && char2.charHp>0)
+	else if(char1.charHP <=0 && char2.charHP>0)
 	{
 		urFighterDiv.appendChild(lostDiv);
 		urOpponentDiv.appendChild(winDiv);
